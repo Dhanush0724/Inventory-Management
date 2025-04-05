@@ -1,0 +1,48 @@
+inventory-system/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── assets/                      # Static files like images, icons, etc.
+│
+│   ├── components/                 # Reusable UI components
+│   │   ├── BarcodeScanner.tsx
+│   │   ├── InventoryComponent.tsx
+│   │   ├── InventoryManager.tsx
+│   │   ├── InvoiceItem.tsx
+│   │   ├── Invoices.tsx
+│   │   ├── RoleProtectedRoute.tsx
+│   │   └── Sidebar.tsx
+│
+│   ├── pages/                      # Pages (typically for routes)
+│   │   ├── AdminDashboard.tsx
+│   │   ├── Billing.tsx
+│   │   ├── dashboard.tsx
+│   │   ├── ExpenseSales.tsx
+│   │   ├── InventoryPage.tsx
+│   │   ├── login.tsx
+│   │   ├── StaffDashboard.tsx
+│   │   └── VendorManagement.tsx
+│
+│   ├── services/                   # API & data logic
+│   │   ├── authService.ts
+│   │   ├── inventoryService.ts
+│   │   └── invoiceService.ts
+│
+│   ├── utils/                      # Helper functions & utilities
+│   │   └── pdfGenerator.ts
+│
+│   ├── App.tsx                     # Main component
+│   ├── App.css
+│   ├── main.tsx                    # Entry point
+│   ├── index.css
+│   ├── styles.css                  # Global styles
+│   ├── firebase.ts                 # Firebase config (if used)
+│   └── vite-env.d.ts               # Vite + TypeScript declarations
+│
+├── .gitignore
+├── eslint.config.js               # ESLint config
+├── package.json
+├── package-lock.json
+└── README.md

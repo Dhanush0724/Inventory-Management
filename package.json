@@ -13,8 +13,11 @@
     "chart.js": "^4.4.8",
     "firebase": "^11.6.0",
     "html2canvas": "^1.4.1",
+    "html5-qrcode": "^2.3.8",
+    "jsbarcode": "^3.11.6",
     "jspdf": "^3.0.1",
     "react": "^19.0.0",
+    "react-barcode": "^1.6.1",
     "react-chartjs-2": "^5.3.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.4.1"
